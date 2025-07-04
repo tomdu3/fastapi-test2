@@ -12,6 +12,7 @@ export const BookSchema = z.object({
     title: z.string().min(3).max(100),
     genre: z.string().min(3).max(100),
     year: z.number(),
+    // if input is a string and needs to be converted to a number-> z.string().transform(str => parseInt(str)),
     edition: z.number().min(1),
     author: AuthorSchema
 })
