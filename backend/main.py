@@ -20,6 +20,6 @@ class Author(BaseModel):
     bio: str | None = None
 
 
-@app.get("api//books", response_model=list[Book])
+@app.get("/api/books", response_model=list[Book])
 async def get_books():
     return books_db
