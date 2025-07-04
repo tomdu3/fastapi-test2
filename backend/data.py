@@ -6,8 +6,10 @@ books_db = [
         "title": "Harry Potter and the Philosopher's Stone",
         "genre": "Fantasy",
         "year": 1997,
+        "edition": 1,
         "author": {
             "id": 1,
+            "edition": 1,
             "name": "J.K. Rowling",
             "bio": "English writer known for the Harry Potter series."
         }
@@ -17,6 +19,7 @@ books_db = [
         "title": "To Kill a Mockingbird",
         "genre": "Classic",
         "year": 1960,
+        "edition": 1,
         "author": {
             "id": 2,
             "name": "Harper Lee",
@@ -28,6 +31,7 @@ books_db = [
         "title": "The Great Gatsby",
         "genre": "Classic",
         "year": 1925,
+        "edition": 1,
         "author": {
             "id": 3,
             "name": "F. Scott Fitzgerald",
@@ -39,6 +43,7 @@ books_db = [
         "title": "1984",
         "genre": "Dystopian",
         "year": 1949,
+        "edition": 2,
         "author": {
             "id": 4,
             "name": "George Orwell",
@@ -50,6 +55,7 @@ books_db = [
         "title": "The Lord of the Rings",
         "genre": "Fantasy",
         "year": 1954,
+        "edition": 1,
         "author": {
             "id": 5,
             "name": "J.R.R. Tolkien",
@@ -61,6 +67,7 @@ books_db = [
         "title": "Pride and Prejudice",
         "genre": "Classic",
         "year": 1813,
+        "edition": 2,
         "author": {
             "id": 6,
             "name": "Jane Austen",
@@ -72,6 +79,7 @@ books_db = [
         "title": "The Catcher in the Rye",
         "genre": "Classic",
         "year": 1951,
+        "edition": 1,
         "author": {
             "id": 7,
             "name": "J.D. Salinger",
@@ -83,6 +91,7 @@ books_db = [
         "title": "The Hobbit",
         "genre": "Fantasy",
         "year": 1937,
+        "edition": 1,
         "author": {
             "id": 5,
             "name": "J.R.R. Tolkien",
@@ -94,6 +103,7 @@ books_db = [
         "title": "Brave New World",
         "genre": "Dystopian",
         "year": 1932,
+        "edition": 1,
         "author": {
             "id": 8,
             "name": "Aldous Huxley",
@@ -105,6 +115,7 @@ books_db = [
         "title": "Moby Dick",
         "genre": "Adventure",
         "year": 1851,
+        "edition": 1,
         "author": {
             "id": 9,
             "name": "Herman Melville",
