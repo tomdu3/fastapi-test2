@@ -10,6 +10,7 @@ export const AuthorSchema = z.object({
 export const BookSchema = z.object({
     id: z.number(),
     title: z.string().min(3).max(100),
+    genre: z.string().min(3).max(100),
     year: z.number(),
     edition: z.number().min(1),
     author: AuthorSchema
